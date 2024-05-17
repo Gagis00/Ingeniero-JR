@@ -7,9 +7,6 @@ Componentes
 Ultrasónico
 ------------
 
-.. autosummary::
-   :toctree: generated
-
 .. code-block:: c++
    
    // Función que "empaqueta" la funcionalidad del sensor ultrasónico
