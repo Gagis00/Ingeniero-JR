@@ -1,5 +1,5 @@
 Componentes
-------------
+===========
 
 
 .. _installation:
