@@ -15,6 +15,7 @@ Función para Ultrasónico
    //    pinMode(3, OUTPUT); // TRIGGER
    //    Serial.begin(9600); 
 
+.. code-block:: c++
    float ultra()
    {
   int trigger = 3;                            //Pin digital 2 para el Trigger del sensor
