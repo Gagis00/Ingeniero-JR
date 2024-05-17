@@ -9,7 +9,6 @@ Ultrasónico
 
    
 .. tabs::
-
 	.. tab:: **Arduino** 
 .. code-block:: c++
    
