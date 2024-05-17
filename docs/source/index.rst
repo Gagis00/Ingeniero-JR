@@ -1,4 +1,4 @@
-Welcome to Lumache's documentation!
+Estos es Ingenieros JR!!
 ===================================
 
 **Lumache** (/lu'make/) is a Python library for cooks and food lovers
@@ -11,7 +11,7 @@ how to :ref:`installation` the project.
 
 .. note::
 
-   This project is under active development.
+   Esta plataforma esta en cambio constante
 
 Contents
 --------
