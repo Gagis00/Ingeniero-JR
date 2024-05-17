@@ -5,7 +5,9 @@ Función para Ultrasónico
    :toctree: generated
 
    
+.. tabs::
 
+	.. tab:: **Arduino** 
 .. code-block:: c++
    
    // Función que "empaqueta" la funcionalidad del sensor ultrasónico
@@ -15,7 +17,6 @@ Función para Ultrasónico
    //    pinMode(3, OUTPUT); // TRIGGER
    //    Serial.begin(9600); 
 
-.. code-block:: c++
    float ultra() {
   int trigger = 3;                            //Pin digital 2 para el Trigger del sensor
   int echo = 2;                               //Pin digital 3 para el Echo del sensort
