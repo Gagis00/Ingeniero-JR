@@ -16,8 +16,7 @@ Función para Ultrasónico
    //    Serial.begin(9600); 
 
 .. code-block:: c++
-   float ultra()
-   {
+   float ultra() {
   int trigger = 3;                            //Pin digital 2 para el Trigger del sensor
   int echo = 2;                               //Pin digital 3 para el Echo del sensort
   float tiempo_de_espera,distancia; 
