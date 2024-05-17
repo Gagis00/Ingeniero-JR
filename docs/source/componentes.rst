@@ -1,3 +1,7 @@
+Componentes
+------------
+
+
 .. _installation:
 
 Ultrasónico
