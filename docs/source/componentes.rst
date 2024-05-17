@@ -1,9 +1,6 @@
-Componentes
-=====
-
 .. _installation:
 
-Ultrasónico
+Componentes
 ------------
 
 
