@@ -7,14 +7,15 @@ Función para Ultrasónico
    
 
 .. code-block:: c++
-// *********************************************************************************
-// Función que "empaqueta" la funcionalidad del sensor ultrasónico
-// Declara los puertos de trigger y echo, así como las variables de retorno
-// No olvides "settear"  
-//    pinMode(2, INPUT);  // ECHO
-//    pinMode(3, OUTPUT); // TRIGGER
-//    Serial.begin(9600); 
-// *********************************************************************************
+   
+   // Función que "empaqueta" la funcionalidad del sensor ultrasónico
+   // Declara los puertos de trigger y echo, así como las variables de retorno
+   // No olvides "settear"  
+   //    pinMode(2, INPUT);  // ECHO
+   //    pinMode(3, OUTPUT); // TRIGGER
+   //    Serial.begin(9600); 
+
+
 float ultra()
 {
   int trigger = 3;                            //Pin digital 2 para el Trigger del sensor
