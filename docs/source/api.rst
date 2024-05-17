@@ -1,5 +1,5 @@
 Función para Ultrasónico
-===
+
 
 .. autosummary::
    :toctree: generated
