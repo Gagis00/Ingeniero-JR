@@ -8,9 +8,6 @@ Ultrasónico
    :toctree: generated
 
    
-.. tabs::
-
-	.. tab:: **Arduino** 
 .. code-block:: c++
    
    // Función que "empaqueta" la funcionalidad del sensor ultrasónico
@@ -36,7 +33,6 @@ Ultrasónico
    Serial.println ("cm");
    return distancia;
    }
-
 
 Servo
 ------------
