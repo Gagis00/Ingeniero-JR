@@ -1,4 +1,10 @@
-Función para Ultrasónico
+Componentes
+=====
+
+.. _installation:
+
+Ultrasónico
+------------
 
 
 .. autosummary::
