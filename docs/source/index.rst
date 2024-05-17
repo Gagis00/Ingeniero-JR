@@ -1,4 +1,4 @@
-Estos es Ingenieros JR!!
+Esto es Ingenieros JR!!
 ===================================
 
 **Lumache** (/lu'make/) is a Python library for cooks and food lovers
