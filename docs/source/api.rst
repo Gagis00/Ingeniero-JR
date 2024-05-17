@@ -6,8 +6,7 @@ Función para Ultrasónico
 
    
 
-.. tabs::
-// *********************************************************************************
+.. tabs:: // *********************************************************************************
 // Función que "empaqueta" la funcionalidad del sensor ultrasónico
 // Declara los puertos de trigger y echo, así como las variables de retorno
 // No olvides "settear"  
