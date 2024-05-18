@@ -37,7 +37,7 @@ Ultrasónico
    }
 
 Actuadores
--------
+----------
 
 .. note::
    Es una forma elegante de decir motor.  
