@@ -36,7 +36,7 @@ Ultrasónico
    return distancia;
    }
 
-Motores
+Actuadores
 -------
 
 .. note::
@@ -47,3 +47,69 @@ Los motores de corriente directa (CD) son muy pequeños y a menudo requiere de u
 .. figure:: img/Motores.png
 
 Estos motores contienen una caja de reducción ya sea de mayor o menos dependiendo del motor. Esta caja de reducción, es una caja de engranes cuya combinación hace que el motor tenga menos velocidad pero más TORQUE(**fuerza**).
+
+Tenemos 4 entradas en el puente H.  Cada par controla a cada motor.
+
+IN1. Motor 1 
+IN2. Motor 1
+IN3. Motor 2
+IN4. Motor 2
+
+**Para programarlo:**
+
+.. note::
+   Al subir el código tu bot debe estar apagado pero al probarlo, enciéndelo para que las pilas ayuden a mover los        motores ya que el USB por si solo no entrega el voltaje necesario para moverlo.  
+
+Para comenzar es importante primero mapear los puertos en los que conectamos cada cable del puente H al arduino de la siguiente manera:
+
+.. code-block:: c++
+   int in1 = 4;
+   int in2 = 5;
+   int in3 = 6;
+   int in4 = 7;
+
+El siguiente paso para programar los actuadores es configurarlos como puertos de salida en ``void Loop()`` tal y como se observa en el siguiente código:
+
+.. code-block:: c++
+   void setup(){
+   pinMode (in1, OUTPUT);
+   pinMode (in2, OUTPUT);
+   pinMode (in3, OUTPUT);
+   pinMode (in4, OUTPUT);
+   }
+
+Para poner a prueba los motores y mover el robot en línea recta es necesario declarar lo siguiente:
+
+.. code-block:: c++
+   void loop(){
+   digitalWrite (in1, LOW);
+   digitalWrite (in2, HIGH);
+   digitalWrite (in3, HIGH);
+   digitalWrite (in4, LOW);
+   }
+
+Al final debería quedar algo como lo siguiente:
+
+.. code-block:: c++
+   int in1 = 4;
+   int in2 = 5;
+   int in3 = 6;
+   int in4 = 7;
+
+   void setup(){
+   pinMode (in1, OUTPUT);
+   pinMode (in2, OUTPUT);
+   pinMode (in3, OUTPUT);
+   pinMode (in4, OUTPUT);
+   }
+
+   void loop(){
+   digitalWrite (in1, LOW);
+   digitalWrite (in2, HIGH);
+   digitalWrite (in3, HIGH);
+   digitalWrite (in4, LOW);
+   }
+   
+.. note::
+   Si ves que no van hacia adelante prueba cambiando la configuración. 
+
