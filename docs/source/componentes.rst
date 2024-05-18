@@ -67,7 +67,7 @@ Ahora vamos a colocar un botón que cuando se presione, se encienda el LED.
    }
    }
 
-.. figure:: img/LED.png
+.. figure:: img/Boton.webp
 
 Ultrasónico
 ------------
