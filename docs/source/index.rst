@@ -20,4 +20,3 @@ Contents
 
    usage
    componentes
-   retos
