@@ -43,6 +43,32 @@ Para programarla se requiere de un código similar al siguiente
 
 .. figure:: img/LED.png
 
+Botón
+-----
+
+Es un interruptor que cuando se presiona deja pasar la energía. No tiene polaridad.
+
+Ahora vamos a colocar un botón que cuando se presione, se encienda el LED.
+
+.. code-block:: c++
+
+   void setup () {
+   pinMode (12, INPUT_ PULLUP) ; 
+   pinMode (13, OUTPUT) ; 
+   }
+
+   // the loop function runs over and over again forever
+   void loop () {
+   int bot = digitalRead (12);
+   if (bot = LOW) // Si se presiona el botón
+      digitalWrite (13, HIGH) ; // prende el LED
+   else {
+   digitalWrite (13, LOW) ; // apaga el LED
+   }
+   }
+
+.. figure:: img/LED.png
+
 Ultrasónico
 ------------
 
