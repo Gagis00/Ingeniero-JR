@@ -11,6 +11,37 @@ El "protoboard“ o "breadboard“es un tablero con orificios conectados eléctr
 
 .. figure:: img/Protoboard.png
 
+Leds
+----
+
+Antes de continuar es importante que sepas que hay componentes que DEBES conectar correctamente a + y -. Esto significa que son componentes con polaridad. Un ejemplo son los LEDs. 
+
+.. note::
+   Hay componentes que no importan como se conecten como son las resistencias, o los botones los cuales no tienen        polaridad.
+
+Un LED (acrónimo del concepto inglés light-emitting diode) es un diodo emisor de luz. En su interior hay un semiconductor que, al ser atravesado por una corriente emite luz.
+
+.. note::
+   La forma más sencilla de probar un LED es usando una pila de reloj o de botón de 3V.  La más común es la CR2016
+
+``El lado positivo es el más largo y el más corto el negativo.``
+
+Para programarla se requiere de un código similar al siguiente
+
+.. code-block:: c++
+
+   void setup(){
+   pinMode(13, OUTPUT); //declara que es un OUTPUT
+   }
+
+   void loop(){
+   digitalWrite (13, HIGH); //Enciende 
+   delay (1000); //duración de 1 segundo
+   digitalWrite (13, LOW); //Apaga
+   delay (1000); //duración de 1 segundo
+   }
+
+
 Ultrasónico
 ------------
 
