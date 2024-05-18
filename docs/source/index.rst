@@ -23,4 +23,5 @@ Contents
 
 Retos del curso:
 - Movimiento del robot con los motores
-- 
+- Ultrasónico con LED
+
