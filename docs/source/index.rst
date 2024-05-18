@@ -22,7 +22,6 @@ Contents
    componentes
 
 Retos del curso:
-   -Movimiento del robot con los motores
    -Ultrasónico con LED
 
 .. code-block:: c++
@@ -74,3 +73,7 @@ Retos del curso:
    Serial.println ("cm");
    return distancia;
    }
+
+-Movimiento del robot con los motores
+
+
