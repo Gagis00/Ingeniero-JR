@@ -20,3 +20,7 @@ Contents
 
    usage
    componentes
+
+Retos del curso:
+- Movimiento del robot con los motores
+- 
