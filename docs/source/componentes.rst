@@ -144,3 +144,5 @@ Este mismo código puede ser usado en una ``Función`` de tal forma que no se te
    digitalWrite (in3, HIGH);
    digitalWrite (in4, LOW);
    }
+
+.. figure:: img/
