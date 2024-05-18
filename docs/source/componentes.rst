@@ -44,6 +44,6 @@ Motores
 
 Los motores de corriente directa (CD) son muy pequeños y a menudo requiere de una caja de reducción. (utilizados durante el curso de INgenieros JR.)
 
-.. figure:: docs/source/img
+.. figure:: docs/source/img/Motores.png
 
 Estos motores contienen una caja de reducción ya sea de mayor o menos dependiendo del motor. Esta caja de reducción, es una caja de engranes cuya combinación hace que el motor tenga menos velocidad pero más TORQUE(fuerza).
