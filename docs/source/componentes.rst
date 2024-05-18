@@ -145,4 +145,4 @@ Este mismo código puede ser usado en una ``Función`` de tal forma que no se te
    digitalWrite (in4, LOW);
    }
 
-.. figure:: img/
+.. figure:: img/movientorobot.gif
