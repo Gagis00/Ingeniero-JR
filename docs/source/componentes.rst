@@ -44,6 +44,6 @@ Es una forma elegante de decir motor.
 
 Los motores de corriente directa (CD) son muy pequeños y a menudo requiere de una caja de reducción. (utilizados durante el curso de INgenieros JR.)
 
-.. figure:: img/project_creator.png
+.. figure:: motor brushed y brushless.webp
     :alt: Project Creator
 
