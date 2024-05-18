@@ -43,6 +43,9 @@ Para programarla se requiere de un código similar al siguiente
 
 .. figure:: img/LED.png
 
+.. note::
+   Este código también puede ser usado para un Buzzer
+
 Botón
 -----
 
