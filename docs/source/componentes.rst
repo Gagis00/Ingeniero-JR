@@ -10,14 +10,25 @@ Ultrasónico
 .. autosummary::
    :toctree: generated
 
+El sensor ultrasónico  consta de dos elementos. Un Transmisor (``Trigger``) y un receptor (``Echo``). 
+
+
 .. code-block:: c++
    
-   // Función que "empaqueta" la funcionalidad del sensor ultrasónico
-   // Declara los puertos de trigger y echo, así como las variables de retorno
-   // No olvides "settear"  
-   //    pinMode(2, INPUT);  // ECHO
-   //    pinMode(3, OUTPUT); // TRIGGER
-   //    Serial.begin(9600); 
+   void setup() {
+
+   pinMode(2, INPUT);  // ECHO
+   pinMode(3, OUTPUT); // TRIGGER
+
+   Serial.begin(9600);
+   }
+
+   void loop() {
+   float d = ultra();
+
+   //Aquí declara tu if
+  
+   }
 
    float ultra() {
    int trigger = 3;                            //Pin digital 2 para el Trigger del sensor
@@ -35,6 +46,8 @@ Ultrasónico
    Serial.println ("cm");
    return distancia;
    }
+
+En el código anterior es posible usar la función para usar el ultrasónico y prender un LED, un motor o cualquier otro componente todo usando un if en donde ``d`` es la distancia que regresa la función.
 
 Actuadores
 ----------
