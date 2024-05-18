@@ -22,6 +22,14 @@ S8- Configuración y programación del sistema de Comunicación
 
 S9 -Pruebas
 
+Ley de Ohm
+----------
+
+George Simon Ohm, formuló en 1827 la que se conoce como Ley de Ohm. Posiblemente una de las leyes fundamentales de la electrónica.
+Primero definió matemáticamente las tres magnitudes físicas principales de la electrónica:
+Voltaje / Intensidad / Resistencia
+
+
 
 Diseño 3D en Thinkercad
 -----------------------
