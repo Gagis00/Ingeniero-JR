@@ -118,3 +118,29 @@ Al final debería quedar algo como lo siguiente:
 .. note::
    Si ves que no van hacia adelante prueba cambiando la configuración. 
 
+Este mismo código puede ser usado en una ``Función`` de tal forma que no se tenga que repetir todo si se desea usar múltiples veces, la función quedaría de la siguiente manera.
+
+.. code-block:: c++
+
+   int in1 = 4;
+   int in2 = 5;
+   int in3 = 6;
+   int in4 = 7;
+
+   void setup(){
+   pinMode (in1, OUTPUT);
+   pinMode (in2, OUTPUT);
+   pinMode (in3, OUTPUT);
+   pinMode (in4, OUTPUT);
+   }
+
+   void loop(){
+   adelante();
+   }
+
+   void adelante(){
+   digitalWrite (in1, LOW);
+   digitalWrite (in2, HIGH);
+   digitalWrite (in3, HIGH);
+   digitalWrite (in4, LOW);
+   }
