@@ -1,8 +1,10 @@
 Componentes
 ===========
 
-
 .. _installation:
+
+.. autosummary::
+   :toctree: generated
 
 Protoboard
 ------------
@@ -74,9 +76,6 @@ Ahora vamos a colocar un botón que cuando se presione, se encienda el LED.
 
 Ultrasónico
 ------------
-
-.. autosummary::
-   :toctree: generated
 
 El sensor ultrasónico  consta de dos elementos. Un Transmisor (``Trigger``) y un receptor (``Echo``). 
 
