@@ -22,9 +22,8 @@ Contents
    componentes
 
 Retos del curso:
-
--Movimiento del robot con los motores
--Ultrasónico con LED
+   -Movimiento del robot con los motores
+   -Ultrasónico con LED
 
 .. code-block:: c++
    
