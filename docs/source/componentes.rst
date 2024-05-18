@@ -114,6 +114,8 @@ El sensor ultrasónico  consta de dos elementos. Un Transmisor (``Trigger``) y u
 
 En el código anterior es posible usar la función para usar el ultrasónico y prender un LED, un motor o cualquier otro componente todo usando un if en donde ``d`` es la distancia que regresa la función.
 
+.. figure:: img/ultrasonido.jpg
+
 Actuadores
 ----------
 
