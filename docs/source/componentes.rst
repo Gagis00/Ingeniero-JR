@@ -41,7 +41,7 @@ Para programarla se requiere de un código similar al siguiente
    delay (1000); //duración de 1 segundo
    }
 
-.. figure:: img/LED.png
+.. figure:: img/LED.jpeg
 
 Botón
 -----
