@@ -18,7 +18,7 @@ Contents
 
 .. toctree::
 
-   usage
+   Introducción a los robots y su diseño
    componentes
 
 Retos del curso:
