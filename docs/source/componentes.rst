@@ -15,6 +15,7 @@ Arduino es una plataforma de control de código abierto inventada en 2005 para h
    En FIRST nuestro sistema de control se llama roboRIO
 
 Un arduino como el ocupado durante el curso cuenta con los siguientes puertos. (Dependiendo de los ``micro-controladores``, pueden contener diferentes puertos pero estos son los más comunes)
+
 .. figure:: img/Arduinopins.png
 
 Arduino Shield (tarjeta de expansión)
