@@ -34,3 +34,4 @@ Voltaje / Intensidad / Resistencia
 Diseño 3D en Thinkercad
 -----------------------
 
+
