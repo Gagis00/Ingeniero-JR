@@ -6,6 +6,29 @@ Componentes
 .. autosummary::
    :toctree: generated
 
+Arduino
+-------
+
+Arduino es una plataforma de control de código abierto inventada en 2005 para hacer proyectos de forma sencilla. 
+
+.. note::
+   En FIRST nuestro sistema de control se llama roboRIO
+
+Un arduino como el ocupado durante el curso cuenta con los siguientes puertos. (Dependiendo de los ``micro-controladores``, pueden contener diferentes puertos pero estos son los más comunes)
+.. figure:: img/Arduinopins.png
+
+Arduino Shield (tarjeta de expansión)
+-------------------------------------
+
+En Arduino, las tarjetas de expansión ayudan a crear una disposición más sencilla de los elementos de Arduino, en este caso nosotros utilizaremos el Sensor Shield, el cual se utiliza mucho en robótica.
+Estos son los puertos con los que cuenta la shield y el como estan organizados.
+
+.. figure:: img/Shieldpins.png
+
+Es importante colocarlo de la siguiente manera, intentando no doblar los pines de la shield.
+
+.. figure:: img/Shieldposition.png
+
 Protoboard
 ------------
 
