@@ -37,6 +37,17 @@ El "protoboard“ o "breadboard“es un tablero con orificios conectados eléctr
 
 .. figure:: img/Protoboard.png
 
+Puente H
+----
+
+El puente H es un componente que permite controlar los motores de muchos tipos y tamaños por medio de la plataforma de Arduino, en ``FIRST`` los llamamos ``Talons``
+
+.. figure:: img/PuenteHpuertos.png
+
+Para hacer uso de este componente, es necesario conectarlo de la siguiente manera a la shield conectada también al arduino que estes utilizando.
+
+.. figure:: img/PuenteHconexion.png
+
 Leds
 ----
 
