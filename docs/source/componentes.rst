@@ -35,7 +35,7 @@ Protoboard
 
 El "protoboard“ o "breadboard“es un tablero con orificios conectados eléctricamente entre sí, habitualmente siguiendo patrones de líneas, en el cual se pueden insertar componentes electrónicos y cables para el armado y prototipado de circuitos electrónicos y sistemas similares.
 
-.. figure:: img/Protoboard.png
+.. figure:: img/Protoboardpuertos.png
 
 Puente H
 ----
