@@ -46,7 +46,7 @@ El puente H es un componente que permite controlar los motores de muchos tipos y
 
 Para hacer uso de este componente, es necesario conectarlo de la siguiente manera a la shield conectada también al arduino que estes utilizando.
 
-.. figure:: img/PuenteHconexion.png
+.. figure:: img/PuenteHconexiones.png
 
 Leds
 ----
